@@ -25,7 +25,7 @@ const slides = [
 </key-slot>
 <key-slot>
 
-#### __Proposed Solution:__ Organize it into folders based on: ####
+#### __Proposed Solution:__ Organize it into folders based on ... ####
 
 1. Group
 2. I &gt; Product
@@ -56,7 +56,7 @@ const slides = [
 
 <div class="segment half">
 <div class="cell">
-<div class="folder-quandry folder-list fade-set" style="font-size: 2.8rem;">
+<div class="folder-quandry folder-list slide-sequence" style="font-size: 2.8rem;">
 
 - Angel = __UX__
 - Jon = __Web__
@@ -78,7 +78,7 @@ const slides = [
 ## Filing Dilema ##
 
 <div class="segment half">
-<div class="cell folder-list fade-set">
+<div class="cell folder-list fade-sequence">
 
 ![](images/file-folder-filled-blue-thumb.svg)__PL - UI/UX__
 
@@ -357,7 +357,7 @@ __Our main goal is retrieving assets without any wasted time whatsoever: To be a
 
 </div>
 <div class="cell">
-<img src="images/iPad.svg" />
+<img class="mobile-tags-image" src="images/iPad.svg" />
 </div>
 </div>
 
@@ -423,6 +423,120 @@ __Our main goal is retrieving assets without any wasted time whatsoever: To be a
 }
 ,{
 "set" : 4,
+"idLabel" : "Structures-followup",
+"type" : "section",
+"content" : `
+# Structures: Update #
+`
+}
+,{
+"set" : 4,
+"idLabel" : "New-folder-structure",
+"content" : `
+## New Folder Structure ##
+
+<key-group switch>
+<key-slot show>
+
+<div class="classification-folder-structure">
+
+### >>__&ndash; Group &ndash;__<< ###
+
+</div>
+
+<div class="group-folder-container">
+
+#### >>PL - Graphic Design<< ####
+
+</div>
+
+</key-slot>
+<key-slot>
+
+<div class="classification-folder-structure">
+
+### >>__&ndash; Product &ndash;__<< ###
+
+</div>
+
+<div class="group-folder-container">
+<div class="segment half folders-inside">
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>__Passive Logic__<<
+
+</div>
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>Website<<
+
+</div>
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>Autonomy Studio<<
+
+</div>
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>Quantum Creator<<
+
+</div>
+</div>
+</div>
+</key-slot>
+<key-slot>
+
+<div class="classification-folder-structure">
+
+### >>__&ndash; Project &ndash;__<< ###
+
+</div>
+
+<div class="group-folder-container">
+<div class="segment half folders-inside">
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>__Branding__<<
+
+</div>
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>Website<<
+
+</div>
+</div>
+</div>
+</key-slot>
+<key-slot>
+
+<div class="classification-folder-structure">
+
+### >>__&ndash; File Collections &ndash;__<< ###
+
+</div>
+
+<div class="group-folder-container">
+<div class="segment half folders-inside">
+<div class="cell">
+
+![](images/file-folder-blue.svg)
+>>__Logos__<<
+
+</div>
+</div>
+</div>
+</key-slot>
+</key-group>
+`
+}
+,{
+"set" : 5,
 "idLabel" : "Conclusion",
 "type" : "section",
 "content" : `
@@ -430,7 +544,7 @@ __Our main goal is retrieving assets without any wasted time whatsoever: To be a
 `
 }
 ,{
-"set" : 4,
+"set" : 5,
 "idLabel" : "Organize-Folders",
 "content" : `
 # Organize Folders #
@@ -440,14 +554,14 @@ Organize folders as we see fit: General to Specific
 `
 }
 ,{
-"set" : 4,
+"set" : 5,
 "idLabel" : "Utilize-Tags",
 "content" : `
 # Utilize Tags #
 
 Similar method with folders, keywords can be a reflection of folders, but also usage.
 
-<div class="fade">
+<div class="slide-sequence">
 
 >>__&mdash; Example:__ email, web, ahr ...<<
 
@@ -456,7 +570,7 @@ Similar method with folders, keywords can be a reflection of folders, but also u
 `
 }
 ,{
-"set" : 4,
+"set" : 5,
 "idLabel" : "To-do",
 "content" : `
 # ToDo #
